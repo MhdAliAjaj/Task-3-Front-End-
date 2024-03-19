@@ -1,0 +1,91 @@
+main .conatct-me{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-evenly; 
+    /* margin: 4% 0;
+    padding: 4% 0; */ 
+    padding: 3% 0;
+  }
+  
+  main .conatct-me h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-variant: small-caps ;
+    color: #2c3e50;
+  }
+  
+  
+  main .conatct-me .shape{
+    display: flex;
+    position: relative;   
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  main .conatct-me .shape span{
+    display: flex;
+    position: absolute;
+  }
+  main .conatct-me .shape span::before{
+    content: "";
+    width: 75px;
+    height: 4px;
+    background-color: #2c3e50;
+    position: absolute;
+    left:-90px;
+  }
+  main .conatct-me .shape span::after{
+    content: ""; 
+    width: 75px;
+    height: 4px;
+    background-color: #2c3e50;
+    position: absolute;
+    left: 40px;
+  }
+  main .conatct-me .inputs-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+  
+  }
+  
+  main .conatct-me .inputs-container .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+  }
+  main .conatct-me .inputs-container .form label{
+  font-size: 18px;
+  opacity: 0.7;
+  padding: 10px 0;
+  }
+  main .conatct-me .inputs-container .form input,textarea{
+    border:none;
+    border-bottom: 1px solid #a6b3c0;
+    padding: 10px 10px;
+    outline: none;
+    }
+    main .conatct-me .inputs-container .form input:focus{
+      background-color: #a6b3c0;
+      border-radius: 20px;
+      }
+      main .conatct-me .inputs-container .form textarea:focus{
+        background-color: #a6b3c0;
+        border-radius: 20px;
+        }
+    main .conatct-me .inputs-container .form .button-send{
+      width: max-content;
+      font-size: 16px;
+      padding: 2% 3%;
+      margin: 3% 0;
+      background-color: #6ad3bf;
+      color: white;
+      border-radius: 5px;
+      border: #1abc9c;
+  
+    }

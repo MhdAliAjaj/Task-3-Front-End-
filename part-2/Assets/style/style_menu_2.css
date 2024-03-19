@@ -1,0 +1,149 @@
+
+.div-menu {
+  width: 34%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.div-menu h3 {
+  background-color: black;
+  color: white;
+  margin: 5%;
+  padding: 0 1% 0 1%;
+}
+.div-menu .div-box-all {
+  box-shadow: 1px 1px 5px 2px rgb(212, 209, 209);
+  margin: 3% 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+/*------------------------------------ Start div Tab---------------------------------------*/
+.div-menu .div-box-all .div-tab {
+  width: 100%;
+  height: auto; /*for informed padding about  tab left */
+  display: flex;
+  box-shadow: 1px 1px 5px 2px rgb(212, 209, 209);
+  padding: 1% 0;
+}
+.div-menu .div-box-all .div-tab .div-tab-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0 2%;
+}
+.div-menu .div-box-all .div-tab .div-tab-left p {
+  width: 100%;
+  height: 100%;
+  background-color: #616161;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: white;
+}
+.div-menu .div-box-all .div-tab .div-tab-reight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.div-menu .div-box-all .div-tab .div-tab-reight p {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+/*------------------------------------End div Tab---------------------------------------*/
+.div-menu .div-box-all .div-box-paragraph {
+  width: 100%;
+  height: auto;     /*للسؤال والاستفسار لماذ لا تتغير القيمة هنا*/
+  padding: 2% 2%;
+
+}
+
+ /*----------------------سوف اقوم بتصميم كل دف مع النص يحتوي---------------------------ه*/
+ /* ------------div parag 1-------------*/
+ .div-menu .div-box-all .div-box-paragraph .div-parag1{
+  padding: 3% 2%;
+  padding: 8% 2% 3% 2%;
+
+ }
+ .div-menu .div-box-all .div-box-paragraph .div-parag1 h3,p{
+  padding: 2% 0;
+ }
+ /* .div-menu .div-box-all .div-box-paragraph .div-parag1 p{
+  padding: 2% 0 ;
+ } */
+/* ------------div parag 2-------------*/
+ .div-menu .div-box-all .div-box-paragraph .div-parag2{
+  padding: 3% 2%;
+ 
+ }
+ .div-menu .div-box-all .div-box-paragraph .div-parag2 h4,p{
+  padding: 2% 0;
+ }
+ /* .div-menu .div-box-all .div-box-paragraph .div-parag2 p{
+  padding: 2% 0;
+ } */
+ /* ------------div parag 3-------------*/
+ .div-menu .div-box-all .div-box-paragraph .div-parag3{
+  padding: 3% 2%;
+
+ }
+ .div-menu .div-box-all .div-box-paragraph .div-parag3 h4,p{
+  padding: 2% 0;
+ }
+ /* .div-menu .div-box-all .div-box-paragraph .div-parag3 p{
+  padding: 2% 0;
+ } */
+  /* ------------div parag 4-------------*/
+ .div-menu .div-box-all .div-box-paragraph .div-parag4{
+  padding: 3% 2%;
+  
+ }
+ .div-menu .div-box-all .div-box-paragraph .div-parag4 h4,p{
+  padding: 2% 0;
+ }
+ /* .div-menu .div-box-all .div-box-paragraph .div-parag4 p{
+  padding: 2% 0;
+ } */
+/* ------------div parag 5-------------*/
+ .div-menu .div-box-all .div-box-paragraph .div-parag5{
+  padding: 3% 2% 10% 2%;
+ }
+ .div-menu .div-box-all .div-box-paragraph .div-parag5 h4,p{
+  padding: 2% 0;
+ }
+ /* .div-menu .div-box-all .div-box-paragraph .div-parag5 p{
+  padding: 2% 0;
+ } */
+ 
+
+
+
+
+ /*------------------------------------------تنسيق البراغراف-----------------------------------------------*/
+
+.div-menu  .des-img-menu {
+  width: 100%;
+  height: 100%;
+  margin: 2% 0;
+}

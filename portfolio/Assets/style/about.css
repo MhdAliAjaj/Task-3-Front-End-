@@ -1,0 +1,89 @@
+main .about{
+  width: 100vw;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 70px 0;
+  /* margin: 0 auto; */
+  background-color: #1abc9c; 
+    
+  }
+  
+  main .about h2{
+    font-size: 35px;
+    font-variant: small-caps ;
+    color:white;
+  }
+  
+  
+main .about .shape {
+    display: flex;
+    position: relative;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  main .about .shape span {
+    display: flex;
+    position: absolute;
+  }
+  main .about .shape span::before {
+    content: "";
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    left: -90px;
+  }
+  main .about .shape span::after {
+    content: "";
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    left: 40px;
+  }
+  main .about .about-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  main .about .about-me-parg1,.about-me-parg2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0 1%;
+    color: white;
+  }
+  main .about .botton-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    /* width: min-content; */
+    
+    border: 1px solid white;
+    padding: 17px 17px;
+    border-radius: 5px;
+   
+  }
+  main .about .botton-download p{
+    display: flex;
+    color: white;
+    min-width: max-content;
+    cursor: pointer;
+    
+  }
+  main .about .botton-download i{
+    display: flex;
+    padding:0 10px;
+    width: max-content;
+    color: white;
+    cursor: pointer;
+    
+  }

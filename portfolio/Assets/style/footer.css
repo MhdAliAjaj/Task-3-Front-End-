@@ -1,0 +1,87 @@
+
+
+.footer{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .footer h3{
+    padding: 20px 0;
+  }
+  .footer img{
+    width: 30px;
+    padding: 0px 0px;
+  }
+  .footer .info-about-me {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color:#2c3e50 ;
+  }
+  .footer .info-about-me .location{
+    width: 25%;
+    padding: 30px 0;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+  }
+  .footer .info-about-me .around-the-web{
+    width: 25%;
+    padding: 30px 0;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: white;
+    
+  
+  }
+  .footer .info-about-me .around-the-web .icons{
+  
+  }
+  
+  .footer .info-about-me .about-freelancer {
+    width: 25%;
+    padding: 30px 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: white;
+  }
+  .footer .info-about-me .about-freelancer p{
+    text-align: center;
+  }
+  .footer .info-about-me .about-freelancer p span a{
+    color: #1aa06e;
+    text-decoration:  underline!important;
+  }
+  .footer .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50px;
+    background-color: #1a252f;
+  }
+  .footer .copyright p{
+    width: max-content;
+    color: white;
+  }

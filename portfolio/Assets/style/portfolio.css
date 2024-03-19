@@ -1,0 +1,124 @@
+ main .portfolio{
+    width: 90vw;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0;
+    margin: 0 auto;
+    
+  }
+  main .portfolio h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-variant: small-caps ;
+    color: #2c3e50;
+  }
+  main .portfolio .shape{
+    display: flex;
+    position: relative;   
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  main .portfolio .shape span{
+    display: flex;
+    position: absolute;
+  }
+  main .portfolio .shape span::before{
+    content: "";
+    width: 75px;
+    height: 4px;
+    background-color: #2c3e50;
+    position: absolute;
+    left:-90px;
+  }
+  main .portfolio .shape span::after{
+    content: ""; 
+    width: 75px;
+    height: 4px;
+    background-color: #2c3e50;
+    position: absolute;
+    left: 40px;
+  }
+  /* Cards*/
+  main .portfolio .cards{
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    /* height: auto; *//*هام */
+    height: auto;
+  }
+  main .portfolio .cards .card{
+      width: 300px;
+      height: 200px;
+      background-color: rgb(169, 182, 182);
+      /* position: relative; */
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5% 0;
+      margin: 10px 5px;;
+  }
+  main .portfolio .cards .card img{   
+    /* position: absolute; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+    border-radius: 50%;
+
+
+   
+  }
+
+  /*------------responsive portfolio-----------*/
+  @media (max-width:641px){
+    .main .portfolio h2{
+        font-size: 15px;
+    }
+    .main .portfolio .shape{
+        display: flex;
+        position: relative;
+      }
+      main .portfolio .shape span{
+        display: flex;
+        position: absolute;
+        
+      }
+      main .portfolio .shape span::before{
+        content: "";
+        width: 45px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        left:-58px;       
+      }
+      main .portfolio .shape span::after{
+        content: "";
+        width: 45px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        left: 40px;
+      }
+      main .portfolio .shape span i{
+        font-size: small;
+      }
+      main .portfolio .cards .card {
+        padding:10px 0;
+        box-sizing: border-box;
+      }
+
+  }
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+.div-about {
+  width: 34%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.div-about h3 {
+  background-color: black;
+  color: white;
+  margin: 8% 0% 3% 0;
+  padding: 0 1% 0 1%;
+}
+.div-about .div-paragraphs{
+    padding: 4% 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 71, 71);
+}
+.div-about .div-paragraphs p{
+    padding: 2% 0;
+}
+.div-about .div-par3 {
+  background-color: #f1f1f1;
+  border-left: 3px solid #cccccc;
+  padding-left: 2% !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-about .div-img-about img {
+  width: 100%;
+  height: 100%;
+}
+.div-about .div-par4  {
+  width: 100%;
+  height: 100%;
+  /* padding: 4% 0 3% 0; */
+}
+.div-about .div-par4 p {
+  width: 100%;
+  height: 100%;
+  padding: 2% 0 2% 0;
+}
